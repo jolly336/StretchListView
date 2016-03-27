@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zihuatanejo.test.StretchLayout
+        android:id="@+id/stretchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:id="@+id/stretch_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:id="@+id/gridLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="3">
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="button1" />
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="button2" />
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="button3" />
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="button3" />
+
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="button4" />
+
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="button5" />
+
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="button6" />
+
+                <Button
+                    android:id="@+id/btn8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="button7" />
+
+                <Button
+                    android:id="@+id/btn9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="button8" />
+
+                <Button
+                    android:id="@+id/btn10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="button9" />
+
+                <Button
+                    android:id="@+id/btn11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="button10" />
+
+                <Button
+                    android:id="@+id/btn12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="button11" />
+
+                <Button
+                    android:id="@+id/btn13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="button12" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="button13" />
+            </GridLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/stretch_over"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#440000ff"
+            android:orientation="vertical">
+
+            <com.zihuatanejo.test.StretchListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </com.zihuatanejo.test.StretchLayout>
+
+
+</RelativeLayout>
