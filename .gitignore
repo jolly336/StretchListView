@@ -6,3 +6,8 @@
 .DS_Store
 /build
 /captures
+/.idea
+/*.properties
+/gradle
+/gradlew
+/gradlew.bat
