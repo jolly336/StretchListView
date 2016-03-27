@@ -20,6 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 测试页面
  * Created by Haoxunwang on 2016/3/25.
  */
 public class StretchActivity extends Activity implements StretchLayout.OnGiveUpTouchEventListener {
@@ -78,7 +79,7 @@ public class StretchActivity extends Activity implements StretchLayout.OnGiveUpT
             int viewId = v.getId();
             for (int i = 0; i < childCount; i++) {
                 if (viewId == mGridLayout.getChildAt(i).getId()) {
-                    Toast.makeText(StretchActivity.this, "button " + i + " 被点击了！", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(StretchActivity.this, "button " + (i + 1) + " 被点击了！", Toast.LENGTH_SHORT).show();
                 }
             }
         }

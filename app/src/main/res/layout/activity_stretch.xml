@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.zihuatanejo.test.StretchLayout
+    <com.zihuatanejo.stretchlistview.StretchLayout
         android:id="@+id/stretchLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -115,14 +115,14 @@
             android:background="#440000ff"
             android:orientation="vertical">
 
-            <com.zihuatanejo.test.StretchListView
+            <ListView
                 android:id="@+id/listView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
         </LinearLayout>
 
-    </com.zihuatanejo.test.StretchLayout>
+    </com.zihuatanejo.stretchlistview.StretchLayout>
 
 
 </RelativeLayout>
